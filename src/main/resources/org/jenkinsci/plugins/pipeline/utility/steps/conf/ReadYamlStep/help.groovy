@@ -58,6 +58,11 @@ ul {
         }
     }
     li {
+        code('codePointLimit: ')
+        text('Set the limit for incoming data.')
+        text('Defaults to 3MB if not set.')
+    }
+    li {
         code('maxAliasesForCollections: ')
         text('Restrict the amount of aliases for collections (sequences and mappings) to avoid ')
         a(href:'https://en.wikipedia.org/wiki/Billion_laughs_attack') {
